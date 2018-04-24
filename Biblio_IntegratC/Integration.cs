@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Biblio_IntegratC
 {
-    public class Class1
+    public class Integration
     {
+        public static int GetInt(string val)
+        {
+          return Int16.Parse(val);          
+        }
     }
 }
