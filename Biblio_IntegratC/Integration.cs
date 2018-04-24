@@ -10,6 +10,7 @@ namespace Biblio_IntegratC
     {
         public static int GetInt(string val)
         {
+            val += 1;
           return Int16.Parse(val);          
         }
     }
